@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 42, 1) 49%, rgba(0, 1, 10, 1) 100%);
+}
+
+.main_content {
+    margin-top: 3%;
+}
+.logo figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_main {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo img {
+    margin: 2% 0 4% 0;
+    width: 230px;
+    height: 68px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 4%;
+}
+
+.cards {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.cards img {
+    border-radius: 10px;
+}
+
+.cards img:hover {
+    border: white 2px solid;
+    color: white;
+}
+
+.cards p {
+    margin-top: 10%;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+.cards:hover p {
+    color: white;
+}
+#Frame{
+    width: 160px;
+    height: 160px;
+    background-image: url(/pictures/Frame.png);
+}
+#Frame:hover{
+    width: 160px;
+    height: 160px;
+    background-image: url(/pictures/Frame1.png);
+}
+.gerenciar_perfis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.gerenciar_perfis button {
+    height: 50px;
+    width: 12%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000029;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gerenciar_perfis button:hover {
+    background-color: white;
+    color: black;
+}
