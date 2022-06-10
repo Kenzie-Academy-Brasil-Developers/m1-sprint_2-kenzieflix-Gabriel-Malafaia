@@ -69,11 +69,20 @@ main {}
 .users li p {
     color: #9C9C9C;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 20px;
+
 }
 
 .users li:hover p {
     color: white;
+}
+.img{
+    background-image: url("../pictures/avatar4.png");
+    width: 160px;
+    height: 160px;
+}
+.img:hover{
+    background-image: url("../pictures/avatar5.png");
 }
 
 .gerenciar_perfis {
